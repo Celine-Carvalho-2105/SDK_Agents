@@ -1,0 +1,102 @@
+{
+  "classes": [
+    {
+      "name": "OpenAIChatClient",
+      "docstring": "Not specified",
+      "bases": [
+        "Not specified"
+      ],
+      "decorators": [],
+      "methods": [
+        {
+          "name": "__init__",
+          "docstring": "Not specified",
+          "is_async": false,
+          "decorators": [],
+          "parameters": [
+            {
+              "name": "server_ip",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            }
+          ],
+          "return_type": "Not specified"
+        },
+        {
+          "name": "simple_chat",
+          "docstring": "Not specified",
+          "is_async": false,
+          "decorators": [],
+          "parameters": [
+            {
+              "name": "prompt",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            }
+          ],
+          "return_type": "Not specified"
+        },
+        {
+          "name": "multi_turn_chat",
+          "docstring": "Not specified",
+          "is_async": false,
+          "decorators": [],
+          "parameters": [
+            {
+              "name": "new_message",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            },
+            {
+              "name": "history",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            }
+          ],
+          "return_type": "Not specified"
+        },
+        {
+          "name": "full_chat",
+          "docstring": "Not specified",
+          "is_async": false,
+          "decorators": [],
+          "parameters": [
+            {
+              "name": "messages",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            },
+            {
+              "name": "options",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            }
+          ],
+          "return_type": "Not specified"
+        },
+        {
+          "name": "_send_request",
+          "docstring": "Not specified",
+          "is_async": false,
+          "decorators": [],
+          "parameters": [
+            {
+              "name": "data",
+              "type": "Not specified",
+              "default": "Required",
+              "required": true
+            }
+          ],
+          "return_type": "Not specified"
+        }
+      ]
+    }
+  ],
+  "standalone_functions": []
+}

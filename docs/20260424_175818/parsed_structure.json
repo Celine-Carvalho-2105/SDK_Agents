@@ -1,0 +1,107 @@
+{
+  "classes": [
+    {
+      "name": "OpenAIChatClient",
+      "bases": [],
+      "docstring": null,
+      "decorators": [],
+      "methods": [
+        {
+          "name": "__init__",
+          "parameters": [
+            {
+              "name": "server_ip",
+              "type": null,
+              "default": null,
+              "required": true
+            }
+          ],
+          "return_type": null,
+          "decorators": [],
+          "docstring": null,
+          "is_async": false
+        },
+        {
+          "name": "simple_chat",
+          "parameters": [
+            {
+              "name": "prompt",
+              "type": null,
+              "default": null,
+              "required": true
+            }
+          ],
+          "return_type": null,
+          "decorators": [],
+          "docstring": null,
+          "is_async": false
+        },
+        {
+          "name": "multi_turn_chat",
+          "parameters": [
+            {
+              "name": "new_message",
+              "type": null,
+              "default": null,
+              "required": true
+            },
+            {
+              "name": "history",
+              "type": null,
+              "default": null,
+              "required": true
+            }
+          ],
+          "return_type": null,
+          "decorators": [],
+          "docstring": null,
+          "is_async": false
+        },
+        {
+          "name": "full_chat",
+          "parameters": [
+            {
+              "name": "messages",
+              "type": null,
+              "default": null,
+              "required": true
+            },
+            {
+              "name": "options",
+              "type": null,
+              "default": null,
+              "required": true
+            }
+          ],
+          "return_type": null,
+          "decorators": [],
+          "docstring": null,
+          "is_async": false
+        },
+        {
+          "name": "_send_request",
+          "parameters": [
+            {
+              "name": "data",
+              "type": null,
+              "default": null,
+              "required": true
+            }
+          ],
+          "return_type": null,
+          "decorators": [],
+          "docstring": null,
+          "is_async": false
+        }
+      ],
+      "class_variables": []
+    }
+  ],
+  "functions": [],
+  "endpoints": [],
+  "imports": [
+    "requests",
+    "json"
+  ],
+  "module_docstring": null
+}
